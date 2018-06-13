@@ -1,2 +1,5 @@
 # Blog
-Used to record problems encountered in the programming process and experience.
+- 个人技术部落格（感觉这个名字比博客更有 BIG），源码分析会放在 `Code` 相应目录，一些文章会出现在 `Issues` 中。
+- 内容主要为后端技术，目前使用语言是 Go。
+- 关键词：Go 源码 区块链 
+
