@@ -17,7 +17,6 @@
   - [Others](#others)
   - [Python](#python)
   - [Shell](#shell)
-  - [Swift](#swift)
   - [TeX](#tex)
   - [Vim script](#vim script)
 
@@ -36,10 +35,33 @@
 ## CSS 
 
 - [webcron](https://github.com/lisijie/webcron) - 定时任务管理器
-- [tomorrow-theme](https://github.com/chriskempson/tomorrow-theme) - Tomorrow Theme the precursor to Base16 Theme
 
 ## Go 
 
+- [memberlist](https://github.com/hashicorp/memberlist) - Golang package for gossip based membership and failure detection
+- [consul](https://github.com/hashicorp/consul) - Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.
+- [serf](https://github.com/hashicorp/serf) - Service orchestration and management tool.
+- [cobra](https://github.com/spf13/cobra) - A Commander for modern Go CLI interactions
+- [traefik](https://github.com/containous/traefik) - Træfik, a modern reverse proxy
+- [LeetCode-in-Go](https://github.com/aQuaYi/LeetCode-in-Go) - :mortar_board: Go Solution for LeetCode algorithm problems, 100% coverage, continually updating.
+- [istio](https://github.com/istio/istio) - An open platform to connect, manage, and secure microservices.
+- [nsq](https://github.com/nsqio/nsq) - A realtime distributed messaging platform
+- [gorush](https://github.com/appleboy/gorush) - A push notification server written in Go (Golang).
+- [cosmos-sdk](https://github.com/cosmos/cosmos-sdk) - Secure Blockchain Framework
+- [tendermint](https://github.com/tendermint/tendermint) - ⟁ Tendermint Core (BFT Consensus) in Go
+- [req](https://github.com/imroc/req) - a golang http request library for humans
+- [go-ipfs](https://github.com/ipfs/go-ipfs) - IPFS implementation in Go
+- [tyk](https://github.com/TykTechnologies/tyk) - Tyk Open Source API Gateway written in Go
+- [websocket](https://github.com/gorilla/websocket) - A WebSocket implementation for Go.
+- [quic-go](https://github.com/lucas-clemente/quic-go) - A QUIC implementation in pure go
+- [jwt-go](https://github.com/dgrijalva/jwt-go) - Golang implementation of JSON Web Tokens (JWT)
+- [mux](https://github.com/gorilla/mux) - A powerful URL router and dispatcher for golang.
+- [negroni](https://github.com/urfave/negroni) - Idiomatic HTTP Middleware for Golang
+- [vice](https://github.com/matryer/vice) - Go channels at horizontal scale (powered by message queues)
+- [etcd](https://github.com/coreos/etcd) - Distributed reliable key-value store for the most critical data of a distributed system
+- [go-ethereum](https://github.com/ethereum/go-ethereum) - Official Go implementation of the Ethereum protocol
+- [matcha](https://github.com/gomatcha/matcha) - Build native mobile apps in Go.
+- [graphql](https://github.com/graphql-go/graphql) - An implementation of GraphQL for Go / Golang
 - [ws](https://github.com/gobwas/ws) - Tiny WebSocket library for Go.
 - [RxGo](https://github.com/ReactiveX/RxGo) - Reactive Extensions for the Go language.
 - [orchestrator](https://github.com/github/orchestrator) - MySQL replication topology management and HA
@@ -48,16 +70,14 @@
 - [bolt](https://github.com/boltdb/bolt) - An embedded key/value database for Go.
 - [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go) - go port of shadowsocks
 - [telebot](https://github.com/tucnak/telebot) - Telebot is a Telegram bot framework in Go.
-- [GroupHub_Bot](https://github.com/livc/GroupHub_Bot) - A Telegram Bot to collect Chinese groups.
+- [GroupHub_Bot](https://github.com/livc/GroupHub_Bot) - [DEPRECATED] A Telegram Bot to collect Chinese groups.
 - [nes](https://github.com/fogleman/nes) - NES emulator written in Go.
-- [moby](https://github.com/moby/moby) - Moby Project - a collaborative project for the container ecosystem to assemble container-based systems
 - [prometheus](https://github.com/prometheus/prometheus) - The Prometheus monitoring system and time series database.
 - [centrifugo](https://github.com/centrifugal/centrifugo) - Language-agnostic real-time messaging (Websocket or SockJS) server in Go
-- [go-shadowsocks2](https://github.com/shadowsocks/go-shadowsocks2) - Next-generation Shadowsocks in Go
 - [wechat-monitor](https://github.com/yusank/wechat-monitor) - WeChat robot which can send message to  destined user any time you want
 - [gods](https://github.com/emirpasic/gods) - GoDS (Go Data Structures). Containers (Sets, Lists, Stacks, Maps, Trees), Sets (HashSet, TreeSet), Lists (ArrayList, SinglyLinkedList, DoublyLinkedList), Stacks (LinkedListStack, ArrayStack), Maps (HashMap, TreeMap, HashBidiMap, TreeBidiMap), Trees (RedBlackTree, AVLTree, BTree, BinaryHeap), Comparators, Iterators, Enumerables, Sort, JSON
 - [kcp-go](https://github.com/xtaci/kcp-go) - A Production-Grade Reliable-UDP Library for golang
-- [kcptun](https://github.com/xtaci/kcptun) - A Secure Tunnel Based On KCP with N:M Multiplexing
+- [kcptun](https://github.com/xtaci/kcptun) - A Fast & Secure Tunnel Based On KCP with N:M Multiplexing
 - [wechat-go](https://github.com/songtianyi/wechat-go) - go version wechat web api and message framework for building wechat robot
 - [livego](https://github.com/qieangel2013/livego) - go Implementation of live streaming services
 - [viper](https://github.com/spf13/viper) - Go configuration with fangs
@@ -67,18 +87,15 @@
 - [nats-streaming-server](https://github.com/nats-io/nats-streaming-server) - NATS Streaming System Server
 - [go-designpattern](https://github.com/qibin0506/go-designpattern) - 用Golang描述设计模式
 - [fuzzysearch](https://github.com/renstrom/fuzzysearch) - :pig: Tiny and fast fuzzy search in Go
-- [app](https://github.com/murlokswarm/app) - Package to create apps with GO, HTML and CSS.
+- [app](https://github.com/murlokswarm/app) - Package to build MacOS and Web apps using Go, HTML and CSS.
 - [goim](https://github.com/Terry-Mao/goim) - goim
-- [scheduler](https://github.com/shotdog/scheduler) - (scheduler)统一任务调度平台 for golang
+- [scheduler](https://github.com/av1900/scheduler) - (scheduler)统一任务调度平台 for golang
 - [kingtask](https://github.com/kingsoft-wps/kingtask) - A lightweight  asynchronous timing task system powered by Go
 - [cron](https://github.com/robfig/cron) - a cron library for go
 - [dingo](https://github.com/mission-liao/dingo) - An easy-to-use, distributed, extensible task/job queue framework for #golang
-- [ERP](https://github.com/hexiaoyun128/ERP) - 基于beego的进销存系统
 - [frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
-- [glide](https://github.com/Masterminds/glide) - Package Management for Golang
 - [dep](https://github.com/golang/dep) - Go dependency management tool
 - [wechat](https://github.com/silenceper/wechat) - WeChat SDK for Go （微信SDK：简单、易用）
-- [wechat.v2](https://github.com/chanxuehong/wechat.v2) - weixin/wechat/微信公众平台/微信企业号/微信商户平台/微信支付 go/golang sdk
 - [wuzz](https://github.com/asciimoo/wuzz) - Interactive cli tool for HTTP inspection
 - [ants-go](https://github.com/wcong/ants-go) - open source, distributed, restful crawler engine in golang
 - [peco](https://github.com/peco/peco) - Simplistic interactive filtering tool
@@ -88,40 +105,22 @@
 - [learn](https://github.com/gyuho/learn) - learn
 - [solo-ci](https://github.com/smallSohoSolo/solo-ci) - A lightweight golang ci tool
 - [pholcus](https://github.com/henrylee2cn/pholcus) - [Crawler for Golang] Pholcus is a distributed, high concurrency and powerful web crawler software.
-- [kubernetes](https://github.com/kubernetes/kubernetes) - Production-Grade Container Scheduling and Management
 - [laosj](https://github.com/songtianyi/laosj) - golang light-weight image crawler
 - [go-github](https://github.com/google/go-github) - Go library for accessing the GitHub API
 - [firefly-proxy](https://github.com/yinghuocho/firefly-proxy) - A proxy software to help circumventing the Great Firewall.
 - [gotraining](https://github.com/ardanlabs/gotraining) - Go Training Class Material :
-- [beego-mgo](https://github.com/goinggo/beego-mgo) - Sample Application For Using the BeeGo web framework with MGO
 - [fasthttp](https://github.com/valyala/fasthttp) - Fast HTTP package for Go. Tuned for high performance. Zero memory allocations in hot paths. Up to 10x faster than net/http
-- [hugo](https://github.com/gohugoio/hugo) - A Fast and Flexible Static Site Generator built with love in GoLang.
-- [echo](https://github.com/labstack/echo) - High performance, minimalist Go web framework
 - [mysql](https://github.com/go-sql-driver/mysql) - Go MySQL Driver is a MySQL driver for Go's (golang) database/sql package
-- [goproxy](https://github.com/ooclab/goproxy) - 一个简单的代理小工具
-- [mattermost-server](https://github.com/mattermost/mattermost-server) - Open source Slack-alternative in Golang and React - Mattermost
-- [the-way-to-go_ZH_CN](https://github.com/Unknwon/the-way-to-go_ZH_CN) - 《The Way to Go》中文译本，中文正式名《Go入门指南》
-- [awesome-go](https://github.com/avelino/awesome-go) - A curated list of awesome Go frameworks, libraries and software
-- [beego](https://github.com/astaxie/beego) - beego is an open-source, high-performance web framework for the Go programming language.
-- [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) - A golang ebook intro how to build a web with golang
 
 ## HTML 
 
 - [awesome-mac](https://github.com/jaywcjlove/awesome-mac) -  This repo is a collection of awesome Mac applications and tools for developers and designers.
 - [linux-command](https://github.com/jaywcjlove/linux-command) - Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux
-- [blog](https://github.com/ifwenvlook/blog) - A simple blog system based on Flask
 - [styleguide](https://github.com/google/styleguide) - Style guides for Google-originated open-source projects
-- [web-design-in-4-minutes](https://github.com/jgthms/web-design-in-4-minutes) - Learn basics of web design in 4 minutes
 - [growth-ebook](https://github.com/phodal/growth-ebook) - Growth Engineering: The Definitive Guide。全栈增长工程师指南
 
 ## JavaScript 
 
-- [react-tetris](https://github.com/chvin/react-tetris) - Use React, Redux, Immutable to code Tetris. 🎮
-- [goblog](https://github.com/lisijie/goblog) - 基于beego的简易blog系统
-- [22v](https://github.com/zituocn/22v) - 22v.net 网站源码，网址：https://22v.net
-- [mblog-Flask](https://github.com/moling3650/mblog-Flask) - mblog by Flask
-- [3n1b.com](https://github.com/3n1b-com/3n1b.com) - 
-- [maple-bbs](https://github.com/honmaple/maple-bbs) - a forums system based on flask
 - [500lines](https://github.com/aosabook/500lines) - 500 Lines or Less
 - [resume.github.com](https://github.com/resume/resume.github.com) - Resumes generated using the GitHub informations
 
@@ -135,6 +134,8 @@
 
 ## Others 
 
+- [ipfs](https://github.com/ipfs/ipfs) - Peer-to-peer hypermedia protocol
+- [sicp](https://github.com/numbbbbb/sicp) - 收录我完成的练习题
 - [the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - Master the command line, in one page
 - [docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet) - Docker Cheat Sheet
 - [Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit) - :link: Some useful websites for programmers.
@@ -144,12 +145,10 @@
 - [be-a-professional-programmer](https://github.com/stanzhai/be-a-professional-programmer) - 成为专业程序员路上用到的各种优秀资料、神器及框架
 - [design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans) - Design Patterns for Humans™ - An ultra-simplified explanation
 - [awesome-go-storage](https://github.com/gostor/awesome-go-storage) - A curated list of awesome Go storage projects and libraries
+- [wechat](https://github.com/chanxuehong/wechat) - weixin/wechat/微信公众平台/微信企业号/微信商户平台/微信支付 go/golang sdk
 - [free-programming-books](https://github.com/EbookFoundation/free-programming-books) - :books: Freely available programming books
-- [sublime-text](https://github.com/jikeytang/sublime-text) - sublime-text
 - [go-lang-cheat-sheet](https://github.com/a8m/go-lang-cheat-sheet) - An overview of Go syntax and features.
-- [awesome-docker](https://github.com/veggiemonk/awesome-docker) - :whale: A curated list of Docker resources and projects
 - [quick-look-plugins](https://github.com/sindresorhus/quick-look-plugins) - List of useful Quick Look plugins for developers
-- [awesome-flask](https://github.com/humiaozuzu/awesome-flask) - A curated list of awesome Flask resources and plugins
 - [books](https://github.com/programthink/books) - 【编程随想】收藏的电子书清单（多个学科，含下载链接）
 - [opensource](https://github.com/programthink/opensource) - 【编程随想】收藏的开源项目清单
 - [awesome-mysql-cn](https://github.com/jobbole/awesome-mysql-cn) - MySQL 资源大全中文版，分析工具、备份、性能测试、配置、部署、GUI 等
@@ -163,37 +162,13 @@
 - [zhihu-api](https://github.com/lzjun567/zhihu-api) - Zhihu API for Humans
 - [algorithms](https://github.com/keon/algorithms) - Minimal examples of data structures and algorithms in Python
 - [system-design-primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.
-- [FreeWifi](https://github.com/kylemcdonald/FreeWifi) - How to get free wifi.
 - [httpie](https://github.com/jakubroztocil/httpie) - Modern command line HTTP client – user-friendly curl alternative with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc.  https://httpie.org
-- [werkzeug](https://github.com/pallets/werkzeug) - A flexible WSGI implementation and toolkit
-- [mblog](https://github.com/moling3650/mblog) - myblog
-- [Flask-WhooshAlchemyPlus](https://github.com/Revolution1/Flask-WhooshAlchemyPlus) - Whoosh indexing capabilities for Flask-SQLAlchemy, Flask-WhooshAlchemy plus some improvement
-- [Flask-WhooshAlchemy](https://github.com/gyllstromk/Flask-WhooshAlchemy) - Whoosh indexing capabilities for Flask-SQLAlchemy
-- [maple-blog](https://github.com/honmaple/maple-blog) - a blog website based on flask
-- [AppleDNS](https://github.com/gongjianhui/AppleDNS) - Apple 网络服务加速配置。（少数派、Appinn、Mac玩儿法 推荐）
-- [flasky](https://github.com/miguelgrinberg/flasky) - Companion code to my O'Reilly book "Flask Web Development".
-- [iquery](https://github.com/protream/iquery) - Various information query via command line.
-- [v2ex](https://github.com/livid/v2ex) - Community running on Google App Engine
-- [niji](https://github.com/ericls/niji) - A pluggable Django forum APP
-- [flask](https://github.com/pallets/flask) - A microframework based on Werkzeug, Jinja2 and good intentions
-- [awesome-python](https://github.com/vinta/awesome-python) - A curated list of awesome Python frameworks, libraries, software and resources
-- [python3-cookbook](https://github.com/yidao620c/python3-cookbook) - 《Python Cookbook》 3rd Edition Translation
-- [jieba](https://github.com/fxsjy/jieba) - 结巴中文分词
-- [Hack](https://github.com/source-foundry/Hack) - A typeface designed for source code
-- [django](https://github.com/django/django) - The Web framework for perfectionists with deadlines.
 - [pyspider](https://github.com/binux/pyspider) - A Powerful Spider(Web Crawler) System in Python.
-- [requests](https://github.com/requests/requests) - Python HTTP Requests for Humans™ ✨🍰✨
 
 ## Shell 
 
 - [bitnami-docker-mysql](https://github.com/bitnami/bitnami-docker-mysql) - Bitnami MySQL Docker Image
 - [interview_python](https://github.com/taizilongxu/interview_python) - 关于Python的面试题
-- [pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt
-- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) - A delightful community-driven (with 1,000+ contributors) framework for managing your zsh configuration. Includes 200+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, php, python, etc), over 140 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
-
-## Swift 
-
-- [Swift30Projects](https://github.com/soapyigu/Swift30Projects) - 30 mini Swift Apps for self-study
 
 ## TeX 
 
