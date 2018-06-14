@@ -23,8 +23,6 @@ func(cmd *cobra.Command, args []string) error {
 
 ## 创建节点
 
-这一节把 `NewNode()` 
-
 ### 创建三条连接的客户端
 
 `startInProcess` 会创建 Tendermint 节点，然后启动节点。
