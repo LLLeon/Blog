@@ -16,16 +16,19 @@
   - [Objective-C](#objective-c)
   - [Others](#others)
   - [Python](#python)
+  - [Rust](#rust)
   - [Shell](#shell)
   - [TeX](#tex)
-  - [Vim script](#vim script)
+  - [Vim script](#vim-script)
+  - [Vue](#vue)
 
 ## Batchfile 
 
-- [python-guide](https://github.com/kennethreitz/python-guide) - Python best practices guidebook, written for Humans.
+- [python-guide](https://github.com/realpython/python-guide) - Python best practices guidebook, written for humans.
 
 ## C 
 
+- [redis](https://github.com/antirez/redis) - Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, HyperLogLogs, Bitmaps.
 - [kcp](https://github.com/skywind3000/kcp) - KCP - A Fast and Reliable ARQ Protocol
 
 ## C++ 
@@ -38,16 +41,23 @@
 
 ## Go 
 
+- [evio](https://github.com/tidwall/evio) - Fast event-loop networking for Go
+- [BoomFilters](https://github.com/tylertreat/BoomFilters) - Probabilistic data structures for processing continuous, unbounded streams.
+- [skiplist](https://github.com/MauriceGit/skiplist) - A Go library for an efficient implementation of a skip list: https://godoc.org/github.com/MauriceGit/skiplist
+- [protobuf](https://github.com/gogo/protobuf) - Protocol Buffers for Go with Gadgets
+- [rancher](https://github.com/rancher/rancher) - Complete container management platform
+- [codis](https://github.com/CodisLabs/codis) - Proxy based Redis cluster solution supporting pipeline and scaling dynamically
+- [linkerd2](https://github.com/linkerd/linkerd2) - Ultralight service mesh for Kubernetes
 - [memberlist](https://github.com/hashicorp/memberlist) - Golang package for gossip based membership and failure detection
 - [consul](https://github.com/hashicorp/consul) - Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.
 - [serf](https://github.com/hashicorp/serf) - Service orchestration and management tool.
 - [cobra](https://github.com/spf13/cobra) - A Commander for modern Go CLI interactions
-- [traefik](https://github.com/containous/traefik) - Træfik, a modern reverse proxy
+- [traefik](https://github.com/containous/traefik) - The Cloud Native Edge Router
 - [LeetCode-in-Go](https://github.com/aQuaYi/LeetCode-in-Go) - :mortar_board: Go Solution for LeetCode algorithm problems, 100% coverage, continually updating.
-- [istio](https://github.com/istio/istio) - An open platform to connect, manage, and secure microservices.
+- [istio](https://github.com/istio/istio) - Connect, secure, control, and observe services.
 - [nsq](https://github.com/nsqio/nsq) - A realtime distributed messaging platform
 - [gorush](https://github.com/appleboy/gorush) - A push notification server written in Go (Golang).
-- [cosmos-sdk](https://github.com/cosmos/cosmos-sdk) - Secure Blockchain Framework
+- [cosmos-sdk](https://github.com/cosmos/cosmos-sdk) - :chains: Secure Blockchain Framework :sparkles:
 - [tendermint](https://github.com/tendermint/tendermint) - ⟁ Tendermint Core (BFT Consensus) in Go
 - [req](https://github.com/imroc/req) - a golang http request library for humans
 - [go-ipfs](https://github.com/ipfs/go-ipfs) - IPFS implementation in Go
@@ -58,7 +68,7 @@
 - [mux](https://github.com/gorilla/mux) - A powerful URL router and dispatcher for golang.
 - [negroni](https://github.com/urfave/negroni) - Idiomatic HTTP Middleware for Golang
 - [vice](https://github.com/matryer/vice) - Go channels at horizontal scale (powered by message queues)
-- [etcd](https://github.com/coreos/etcd) - Distributed reliable key-value store for the most critical data of a distributed system
+- [etcd](https://github.com/etcd-io/etcd) - Distributed reliable key-value store for the most critical data of a distributed system
 - [go-ethereum](https://github.com/ethereum/go-ethereum) - Official Go implementation of the Ethereum protocol
 - [matcha](https://github.com/gomatcha/matcha) - Build native mobile apps in Go.
 - [graphql](https://github.com/graphql-go/graphql) - An implementation of GraphQL for Go / Golang
@@ -73,7 +83,7 @@
 - [GroupHub_Bot](https://github.com/livc/GroupHub_Bot) - [DEPRECATED] A Telegram Bot to collect Chinese groups.
 - [nes](https://github.com/fogleman/nes) - NES emulator written in Go.
 - [prometheus](https://github.com/prometheus/prometheus) - The Prometheus monitoring system and time series database.
-- [centrifugo](https://github.com/centrifugal/centrifugo) - Language-agnostic real-time messaging (Websocket or SockJS) server in Go
+- [centrifugo](https://github.com/centrifugal/centrifugo) - Language-agnostic real-time messaging server (Websocket and SockJS)
 - [wechat-monitor](https://github.com/yusank/wechat-monitor) - WeChat robot which can send message to  destined user any time you want
 - [gods](https://github.com/emirpasic/gods) - GoDS (Go Data Structures). Containers (Sets, Lists, Stacks, Maps, Trees), Sets (HashSet, TreeSet), Lists (ArrayList, SinglyLinkedList, DoublyLinkedList), Stacks (LinkedListStack, ArrayStack), Maps (HashMap, TreeMap, HashBidiMap, TreeBidiMap), Trees (RedBlackTree, AVLTree, BTree, BinaryHeap), Comparators, Iterators, Enumerables, Sort, JSON
 - [kcp-go](https://github.com/xtaci/kcp-go) - A Production-Grade Reliable-UDP Library for golang
@@ -86,8 +96,8 @@
 - [go-nats-streaming](https://github.com/nats-io/go-nats-streaming) - NATS Streaming System
 - [nats-streaming-server](https://github.com/nats-io/nats-streaming-server) - NATS Streaming System Server
 - [go-designpattern](https://github.com/qibin0506/go-designpattern) - 用Golang描述设计模式
-- [fuzzysearch](https://github.com/renstrom/fuzzysearch) - :pig: Tiny and fast fuzzy search in Go
-- [app](https://github.com/murlokswarm/app) - Package to build MacOS and Web apps using Go, HTML and CSS.
+- [fuzzysearch](https://github.com/lithammer/fuzzysearch) - :pig: Tiny and fast fuzzy search in Go
+- [app](https://github.com/murlokswarm/app) - Package to build GUI apps with Go, HTML and CSS.
 - [goim](https://github.com/Terry-Mao/goim) - goim
 - [scheduler](https://github.com/av1900/scheduler) - (scheduler)统一任务调度平台 for golang
 - [kingtask](https://github.com/kingsoft-wps/kingtask) - A lightweight  asynchronous timing task system powered by Go
@@ -114,7 +124,7 @@
 
 ## HTML 
 
-- [awesome-mac](https://github.com/jaywcjlove/awesome-mac) -  This repo is a collection of awesome Mac applications and tools for developers and designers.
+- [awesome-mac](https://github.com/jaywcjlove/awesome-mac) -  Now we have become very big, Different from the original idea. Collect premium software in various categories.
 - [linux-command](https://github.com/jaywcjlove/linux-command) - Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux
 - [styleguide](https://github.com/google/styleguide) - Style guides for Google-originated open-source projects
 - [growth-ebook](https://github.com/phodal/growth-ebook) - Growth Engineering: The Definitive Guide。全栈增长工程师指南
@@ -134,6 +144,7 @@
 
 ## Others 
 
+- [awesome](https://github.com/sindresorhus/awesome) - :sunglasses: Curated list of awesome lists
 - [ipfs](https://github.com/ipfs/ipfs) - Peer-to-peer hypermedia protocol
 - [sicp](https://github.com/numbbbbb/sicp) - 收录我完成的练习题
 - [the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - Master the command line, in one page
@@ -143,7 +154,7 @@
 - [bash-guide](https://github.com/Idnan/bash-guide) - A guide to learn bash
 - [go_command_tutorial](https://github.com/hyper0x/go_command_tutorial) - Golang command tutorial in Chinese.
 - [be-a-professional-programmer](https://github.com/stanzhai/be-a-professional-programmer) - 成为专业程序员路上用到的各种优秀资料、神器及框架
-- [design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans) - Design Patterns for Humans™ - An ultra-simplified explanation
+- [design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans) - An ultra-simplified explanation to design patterns
 - [awesome-go-storage](https://github.com/gostor/awesome-go-storage) - A curated list of awesome Go storage projects and libraries
 - [wechat](https://github.com/chanxuehong/wechat) - weixin/wechat/微信公众平台/微信企业号/微信商户平台/微信支付 go/golang sdk
 - [free-programming-books](https://github.com/EbookFoundation/free-programming-books) - :books: Freely available programming books
@@ -165,6 +176,12 @@
 - [httpie](https://github.com/jakubroztocil/httpie) - Modern command line HTTP client – user-friendly curl alternative with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc.  https://httpie.org
 - [pyspider](https://github.com/binux/pyspider) - A Powerful Spider(Web Crawler) System in Python.
 
+## Rust 
+
+- [hyper](https://github.com/hyperium/hyper) - An HTTP library for Rust
+- [rsedis](https://github.com/seppo0010/rsedis) - Redis re-implemented in Rust.
+- [parity-ethereum](https://github.com/paritytech/parity-ethereum) - The fast, light, and robust EVM and WASM client.
+
 ## Shell 
 
 - [bitnami-docker-mysql](https://github.com/bitnami/bitnami-docker-mysql) - Bitnami MySQL Docker Image
@@ -177,6 +194,10 @@
 ## Vim script 
 
 - [vimrc](https://github.com/amix/vimrc) - The ultimate Vim configuration: vimrc
+
+## Vue 
+
+- [graphql-realtime-chat](https://github.com/tinrab/graphql-realtime-chat) - Real-time Chat with GraphQL Subscriptions in Go
 
 
 ## License
